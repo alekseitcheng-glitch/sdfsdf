@@ -116,6 +116,7 @@ async def buy_label(update, context):
         title="Shipping Label",
         description="Purchase a shipping label (up to 69 lbs)",
         payload="label_purchase",
+        provider_token="",
         currency="XTR",
         prices=prices
     )
