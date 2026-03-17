@@ -24,7 +24,7 @@ from telegram.ext import (
 BOT_TOKEN = os.environ["BOT_TOKEN"]
 SHIPHUB_API_KEY = os.environ["SHIPHUB_API_KEY"]
 ADMIN_ID = int(os.environ["ADMIN_ID"])
-PRICE_STARS = 1
+PRICE_STARS = 300
 paid_users = set()
 payment_logs = {}
 
